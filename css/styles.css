@@ -1,0 +1,127 @@
+/* цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+/* цвет акцента #2196F3 */
+/* белый #FFFFFF */
+/* вторичный цвет фона #F5F4FA */
+/* цвет подвала #2F303A */
+
+:root {
+--primary-text-color: #212121;
+--secondary-text-color: #757575;
+--accent-text-color: #2196F3;
+--white-color: #FFFFFF;
+--secondary-background-color: #F5F4FA;
+--footer-background-color: #2F303A;
+
+}
+
+
+body {
+  color: var(--primary-text-color);
+  background-color: var(--white-color);
+  
+}
+
+/* header */
+.list {
+  list-style: none;
+}
+
+.logo {
+  color: var(--primary-text-color);
+}
+.logo-web {
+  color: var(--accent-text-color);
+}
+
+
+
+/* site-nav */
+
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-text-color)
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-text-color);
+}
+
+/* auth-nav */
+.auth-nav .link {
+color: var(--secondary-text-color);
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-text-color);
+}
+
+/* main */
+
+/* hero */
+.hero-title {
+color: var(--white-color);
+background-color: teal
+}
+
+/* button */
+
+.button {
+  color: var(--white-color);
+  background-color: var(--accent-text-color);
+}
+
+
+/* section */
+.section-title {
+color: var(--primary-text-color);
+}
+
+/* о нас */
+
+.about-list .title {
+  color: var(--primary-text-color);
+}
+
+.about-list .text {
+  color: var(--secondary-text-color);
+}
+
+/* чем мы занимаемся */
+
+/* наша команда */
+
+.name-title {
+  color: var(--primary-text-color);
+}
+
+.team {
+  background-color: var(--secondary-background-color )
+}
+
+.social .link:hover,
+.social .link:focus {
+  color: var(--accent-text-color);
+}
+
+/* Постоянные клиенты */
+
+
+/* footer */
+
+.footer {
+  background-color: var(--footer-background-color);
+}
+
+.footer-logo {
+  color: var(--white-color);
+}
+
+.footer-title {
+  color: var(--white-color);
+}
