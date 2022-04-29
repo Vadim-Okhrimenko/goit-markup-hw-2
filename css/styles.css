@@ -34,6 +34,9 @@ body {
   color: var(--accent-text-color);
 }
 
+.link {
+  text-decoration: none;
+}
 
 
 /* site-nav */
@@ -121,6 +124,16 @@ color: var(--primary-text-color);
 .footer-logo {
   color: var(--white-color);
 }
+
+.footer-address-location {
+  color: var(--white-color);
+}
+
+.footer-address-mail,
+.footer-address-phone {
+  color: rgba(255, 255, 255, 0.6);
+}
+
 
 .footer-title {
   color: var(--white-color);
